@@ -12,7 +12,7 @@ Source code will be posted soon.
 for(l in seq(1,10,0.5)){
   l1 <- sfpca("PCA",
                   X=X,
-                  Y=matrix(runif(p*n),n,p),
+                  Y=NULL,
                   Omega_u=O_u,Omega_v=O_v,
                   alpha_u=1,alpha_v=1,
                   lambda_u=l,lambda_v=l,
@@ -25,7 +25,7 @@ for(l in seq(1,10,0.5)){
                   SVD = 1)
         scad <- sfpca("PCA",
                   X=X,
-                  Y=matrix(runif(p*n),n,p),
+                  Y=NULL,
                   Omega_u=O_u,Omega_v=O_v,
                   alpha_u=1,alpha_v=1,
                   lambda_u=l,lambda_v=l,
@@ -38,7 +38,7 @@ for(l in seq(1,10,0.5)){
                   SVD = 1)
        l1nonneg <- sfpca("PCA",
                   X=X,
-                  Y=matrix(runif(p*n),n,p),
+                  Y=NULL,
                   Omega_u=O_u,Omega_v=O_v,
                   alpha_u=1,alpha_v=1,
                   lambda_u=l,lambda_v=l,
