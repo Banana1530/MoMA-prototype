@@ -1,12 +1,6 @@
 [
     {
         "definitions" : [
-        ],
-        "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/common.h",
-        "file_last_write" : 1522283982
-    },
-    {
-        "definitions" : [
             {
                 "column" : 5,
                 "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/sfpca_extended.cpp",
@@ -42,15 +36,6 @@
                 "name" : "Grad",
                 "parent_name" : "",
                 "usr" : "c:sfpca_extended.cpp@516@T@Grad"
-            },
-            {
-                "column" : 9,
-                "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/sfpca_extended.cpp",
-                "kind" : 4,
-                "line" : 27,
-                "name" : "",
-                "parent_name" : "",
-                "usr" : "c:@EA@MODEL_TYPE"
             },
             {
                 "column" : 15,
@@ -96,15 +81,6 @@
                 "name" : "MODEL_TYPE",
                 "parent_name" : "",
                 "usr" : "c:sfpca_extended.cpp@555@T@MODEL_TYPE"
-            },
-            {
-                "column" : 9,
-                "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/sfpca_extended.cpp",
-                "kind" : 4,
-                "line" : 28,
-                "name" : "",
-                "parent_name" : "",
-                "usr" : "c:@EA@SOLVER_TYPE"
             },
             {
                 "column" : 15,
@@ -215,15 +191,6 @@
                 "usr" : "c:@F@string_to_MT#$@N@std@C@basic_string>#C#$@N@std@S@char_traits>#C#$@N@std@C@allocator>#C#"
             },
             {
-                "column" : 9,
-                "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/sfpca_extended.cpp",
-                "kind" : 3,
-                "line" : 98,
-                "name" : "",
-                "parent_name" : "",
-                "usr" : "c:@SA@Model"
-            },
-            {
                 "column" : 3,
                 "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/sfpca_extended.cpp",
                 "kind" : 8,
@@ -231,15 +198,6 @@
                 "name" : "Model",
                 "parent_name" : "",
                 "usr" : "c:sfpca_extended.cpp@2431@T@Model"
-            },
-            {
-                "column" : 9,
-                "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/sfpca_extended.cpp",
-                "kind" : 3,
-                "line" : 104,
-                "name" : "",
-                "parent_name" : "",
-                "usr" : "c:@SA@Solver"
             },
             {
                 "column" : 3,
@@ -279,6 +237,6 @@
             }
         ],
         "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/sfpca_extended.cpp",
-        "file_last_write" : 1522284088
+        "file_last_write" : 1522284341
     }
 ]
