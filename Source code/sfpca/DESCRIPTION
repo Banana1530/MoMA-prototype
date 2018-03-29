@@ -9,5 +9,6 @@ Maintainer: Who to complain to
 Description: More about what it does (maybe
      more than one line)
 License: What license is it under?
-Imports: Rcpp (>= 0.12.16)
+Imports: 
+    Rcpp
 LinkingTo: Rcpp, RcppArmadillo
