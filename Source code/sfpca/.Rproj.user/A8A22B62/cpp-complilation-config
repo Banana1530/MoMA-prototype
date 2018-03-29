@@ -12,7 +12,7 @@
         "-Id:/Compiler/gcc-4.9.3/local330/include",
         "-fopenmp"
     ],
-    "hash" : "152231469315223146931522314693",
+    "hash" : "152231629115223162911522316291",
     "is_cpp" : true,
     "pch" : "Rcpp"
 }
