@@ -2,12 +2,10 @@
 // [[Rcpp::depends(RcppArmadillo)]]
 
 double GAMMA = 3.7;
-const bool DEBUG = 0;
 arma::mat UCOEF;
 arma::vec UCONST_VEC;
 arma::mat VCOEF;
 arma::vec VCONST_VEC;
-
 using namespace std;
 using namespace Rcpp;
 using namespace arma;
@@ -28,6 +26,7 @@ typedef arma::vec (*Prox_op)(arma::vec, double);
 typedef arma::vec (*Grad)(arma::vec);
 typedef enum {PCA, LDA, CCA, PLS} MODEL_TYPE;
 typedef enum {ISTA, FISTA} SOLVER_TYPE;
+const bool DEBUG = 0;
 
 arma::vec Grad_nosmoothv(arma::vec x) 
 {
@@ -43,7 +42,6 @@ arma::vec Grad_linev(arma::vec x)
   if(DEBUG) cout<< "Grad_linv" << endl;
   return -VCONST_VEC + VCOEF * x;
 }
-
 arma::vec Grad_lineu(arma::vec x)
 {
   return -UCONST_VEC + UCOEF * x;
