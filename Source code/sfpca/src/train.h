@@ -57,7 +57,9 @@ Rcpp::List train(Model mod, Solver sol)
             iter++;
         }
     }
-    // else {
+    else if (sol.solver_type == FISTA){
+        throw std::invalid_argument("FISTA is buidding");
+    }
     // Doing FISTA
 
     //   arma::vec yu = u;

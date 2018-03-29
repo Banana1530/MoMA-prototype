@@ -20,7 +20,7 @@ extern "C" SEXP sfpca(
     double scad_a = 3.7,
     int non_neg = 0, // 1 means activate non-negativity constraint
     double EPS = 1e-4,
-    long MAX_ITER = 1e+3,
+    long MAX_ITER = 1e+3,	
     std::string solver = "ISTA",
     bool SVD = 1
 )
