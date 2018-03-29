@@ -21,16 +21,25 @@
             }
         ],
         "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/common.h",
-        "file_last_write" : 1522294465
+        "file_last_write" : 1522314693
     },
     {
         "definitions" : [
         ],
         "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/model.cpp",
-        "file_last_write" : 1522293629
+        "file_last_write" : 1522314693
     },
     {
         "definitions" : [
+            {
+                "column" : 9,
+                "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/model.h",
+                "kind" : 4,
+                "line" : 4,
+                "name" : "",
+                "parent_name" : "",
+                "usr" : "c:@EA@MODEL_TYPE"
+            },
             {
                 "column" : 16,
                 "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/model.h",
@@ -77,6 +86,15 @@
                 "usr" : "c:model.h@59@T@MODEL_TYPE"
             },
             {
+                "column" : 9,
+                "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/model.h",
+                "kind" : 3,
+                "line" : 8,
+                "name" : "",
+                "parent_name" : "",
+                "usr" : "c:@SA@Model"
+            },
+            {
                 "column" : 3,
                 "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/model.h",
                 "kind" : 8,
@@ -105,19 +123,19 @@
             }
         ],
         "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/model.h",
-        "file_last_write" : 1522294477
+        "file_last_write" : 1522314693
     },
     {
         "definitions" : [
         ],
         "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/sfpca_extended.cpp",
-        "file_last_write" : 1522299881
+        "file_last_write" : 1522314693
     },
     {
         "definitions" : [
         ],
         "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/solver.cpp",
-        "file_last_write" : 1522294252
+        "file_last_write" : 1522314693
     },
     {
         "definitions" : [
@@ -138,6 +156,15 @@
                 "name" : "Grad",
                 "parent_name" : "",
                 "usr" : "c:solver.h@133@T@Grad"
+            },
+            {
+                "column" : 9,
+                "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/solver.h",
+                "kind" : 4,
+                "line" : 9,
+                "name" : "",
+                "parent_name" : "",
+                "usr" : "c:@EA@SOLVER_TYPE"
             },
             {
                 "column" : 16,
@@ -239,6 +266,15 @@
                 "usr" : "c:@F@string_to_ST#$@N@std@C@basic_string>#C#$@N@std@S@char_traits>#C#$@N@std@C@allocator>#C#"
             },
             {
+                "column" : 9,
+                "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/solver.h",
+                "kind" : 3,
+                "line" : 72,
+                "name" : "",
+                "parent_name" : "",
+                "usr" : "c:@SA@Solver"
+            },
+            {
                 "column" : 3,
                 "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/solver.h",
                 "kind" : 8,
@@ -258,7 +294,7 @@
             }
         ],
         "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/solver.h",
-        "file_last_write" : 1522294802
+        "file_last_write" : 1522314693
     },
     {
         "definitions" : [
@@ -273,6 +309,6 @@
             }
         ],
         "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/train.h",
-        "file_last_write" : 1522299853
+        "file_last_write" : 1522314693
     }
 ]

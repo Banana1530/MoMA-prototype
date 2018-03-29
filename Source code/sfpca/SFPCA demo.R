@@ -9,7 +9,7 @@ sparse.p = c("l1","scad")
 
 
 cnt = 1
-for(l in seq(1,10,0.5)){
+for(l in seq(1,30,0.5)){
   l1 <- sfpca("PCA",
                   X=X,
                   Y=matrix(runif(p*n),n,p),
