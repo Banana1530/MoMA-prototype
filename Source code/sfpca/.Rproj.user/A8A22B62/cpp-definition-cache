@@ -21,13 +21,13 @@
             }
         ],
         "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/common.h",
-        "file_last_write" : 1522289982
+        "file_last_write" : 1522293631
     },
     {
         "definitions" : [
         ],
         "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/model.cpp",
-        "file_last_write" : 1522290289
+        "file_last_write" : 1522293629
     },
     {
         "definitions" : [
@@ -107,14 +107,14 @@
                 "column" : 12,
                 "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/model.h",
                 "kind" : 6,
-                "line" : 15,
+                "line" : 16,
                 "name" : "string_to_MT(std::string)",
                 "parent_name" : "",
                 "usr" : "c:@F@string_to_MT#$@N@std@C@basic_string>#C#$@N@std@S@char_traits>#C#$@N@std@C@allocator>#C#"
             }
         ],
         "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/model.h",
-        "file_last_write" : 1522289730
+        "file_last_write" : 1522293825
     },
     {
         "definitions" : [
@@ -122,25 +122,34 @@
                 "column" : 21,
                 "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/sfpca_extended.cpp",
                 "kind" : 8,
-                "line" : 5,
+                "line" : 4,
                 "name" : "Prox_op",
                 "parent_name" : "",
-                "usr" : "c:sfpca_extended.cpp@45@T@Prox_op"
+                "usr" : "c:sfpca_extended.cpp@43@T@Prox_op"
             },
             {
                 "column" : 21,
                 "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/sfpca_extended.cpp",
                 "kind" : 8,
-                "line" : 6,
+                "line" : 5,
                 "name" : "Grad",
                 "parent_name" : "",
-                "usr" : "c:sfpca_extended.cpp@95@T@Grad"
+                "usr" : "c:sfpca_extended.cpp@93@T@Grad"
+            },
+            {
+                "column" : 9,
+                "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/sfpca_extended.cpp",
+                "kind" : 4,
+                "line" : 7,
+                "name" : "",
+                "parent_name" : "",
+                "usr" : "c:@EA@SOLVER_TYPE"
             },
             {
                 "column" : 15,
                 "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/sfpca_extended.cpp",
                 "kind" : 5,
-                "line" : 8,
+                "line" : 7,
                 "name" : "ISTA",
                 "parent_name" : "",
                 "usr" : "c:@EA@SOLVER_TYPE@ISTA"
@@ -149,7 +158,7 @@
                 "column" : 21,
                 "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/sfpca_extended.cpp",
                 "kind" : 5,
-                "line" : 8,
+                "line" : 7,
                 "name" : "FISTA",
                 "parent_name" : "",
                 "usr" : "c:@EA@SOLVER_TYPE@FISTA"
@@ -158,16 +167,16 @@
                 "column" : 28,
                 "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/sfpca_extended.cpp",
                 "kind" : 8,
-                "line" : 8,
+                "line" : 7,
                 "name" : "SOLVER_TYPE",
                 "parent_name" : "",
-                "usr" : "c:sfpca_extended.cpp@136@T@SOLVER_TYPE"
+                "usr" : "c:sfpca_extended.cpp@134@T@SOLVER_TYPE"
             },
             {
                 "column" : 11,
                 "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/sfpca_extended.cpp",
                 "kind" : 6,
-                "line" : 11,
+                "line" : 10,
                 "name" : "Grad_nosmoothv(arma::vec)",
                 "parent_name" : "",
                 "usr" : "c:@F@Grad_nosmoothv#$@N@arma@C@Col>#d#"
@@ -176,7 +185,7 @@
                 "column" : 11,
                 "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/sfpca_extended.cpp",
                 "kind" : 6,
-                "line" : 15,
+                "line" : 14,
                 "name" : "Grad_nosmoothu(arma::vec)",
                 "parent_name" : "",
                 "usr" : "c:@F@Grad_nosmoothu#$@N@arma@C@Col>#d#"
@@ -185,7 +194,7 @@
                 "column" : 11,
                 "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/sfpca_extended.cpp",
                 "kind" : 6,
-                "line" : 20,
+                "line" : 19,
                 "name" : "Grad_linev(arma::vec)",
                 "parent_name" : "",
                 "usr" : "c:@F@Grad_linev#$@N@arma@C@Col>#d#"
@@ -194,7 +203,7 @@
                 "column" : 11,
                 "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/sfpca_extended.cpp",
                 "kind" : 6,
-                "line" : 25,
+                "line" : 24,
                 "name" : "Grad_lineu(arma::vec)",
                 "parent_name" : "",
                 "usr" : "c:@F@Grad_lineu#$@N@arma@C@Col>#d#"
@@ -203,7 +212,7 @@
                 "column" : 11,
                 "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/sfpca_extended.cpp",
                 "kind" : 6,
-                "line" : 30,
+                "line" : 29,
                 "name" : "Lasso(arma::vec, double)",
                 "parent_name" : "",
                 "usr" : "c:@F@Lasso#$@N@arma@C@Col>#d#d#"
@@ -212,7 +221,7 @@
                 "column" : 11,
                 "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/sfpca_extended.cpp",
                 "kind" : 6,
-                "line" : 35,
+                "line" : 34,
                 "name" : "Lasso_pos(arma::vec, double)",
                 "parent_name" : "",
                 "usr" : "c:@F@Lasso_pos#$@N@arma@C@Col>#d#d#"
@@ -221,7 +230,7 @@
                 "column" : 11,
                 "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/sfpca_extended.cpp",
                 "kind" : 6,
-                "line" : 39,
+                "line" : 38,
                 "name" : "Scad(arma::vec, double)",
                 "parent_name" : "",
                 "usr" : "c:@F@Scad#$@N@arma@C@Col>#d#d#"
@@ -230,25 +239,34 @@
                 "column" : 13,
                 "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/sfpca_extended.cpp",
                 "kind" : 6,
-                "line" : 57,
+                "line" : 56,
                 "name" : "string_to_ST(std::string)",
                 "parent_name" : "",
                 "usr" : "c:@F@string_to_ST#$@N@std@C@basic_string>#C#$@N@std@S@char_traits>#C#$@N@std@C@allocator>#C#"
             },
             {
+                "column" : 9,
+                "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/sfpca_extended.cpp",
+                "kind" : 3,
+                "line" : 68,
+                "name" : "",
+                "parent_name" : "",
+                "usr" : "c:@SA@Solver"
+            },
+            {
                 "column" : 3,
                 "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/sfpca_extended.cpp",
                 "kind" : 8,
-                "line" : 85,
+                "line" : 84,
                 "name" : "Solver",
                 "parent_name" : "",
-                "usr" : "c:sfpca_extended.cpp@1530@T@Solver"
+                "usr" : "c:sfpca_extended.cpp@1528@T@Solver"
             },
             {
                 "column" : 7,
                 "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/sfpca_extended.cpp",
                 "kind" : 6,
-                "line" : 87,
+                "line" : 86,
                 "name" : "build_model(arma::mat, arma::mat, std::string)",
                 "parent_name" : "",
                 "usr" : "c:@F@build_model#$@N@arma@C@Mat>#d#S0_#$@N@std@C@basic_string>#C#$@N@std@S@char_traits>#C#$@N@std@C@allocator>#C#"
@@ -257,7 +275,7 @@
                 "column" : 8,
                 "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/sfpca_extended.cpp",
                 "kind" : 6,
-                "line" : 112,
+                "line" : 111,
                 "name" : "build_solver(Model, arma::mat, arma::mat, double, double, double, double, std::string, std::string, double, int, double, long, std::string, bool)",
                 "parent_name" : "",
                 "usr" : "c:@F@build_solver#$@SA@Model#$@N@arma@C@Mat>#d#S1_#d#d#d#d#$@N@std@C@basic_string>#C#$@N@std@S@char_traits>#C#$@N@std@C@allocator>#C#S2_#d#I#d#L#S2_#b#"
@@ -266,13 +284,13 @@
                 "column" : 6,
                 "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/sfpca_extended.cpp",
                 "kind" : 6,
-                "line" : 255,
+                "line" : 254,
                 "name" : "train",
                 "parent_name" : "",
                 "usr" : "c:@F@train#"
             }
         ],
         "file" : "C:/Users/Smart/Desktop/MoMA-prototype/Source code/sfpca/src/sfpca_extended.cpp",
-        "file_last_write" : 1522286812
+        "file_last_write" : 1522293802
     }
 ]

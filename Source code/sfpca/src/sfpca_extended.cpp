@@ -1,7 +1,6 @@
 #include "common.h"
 #include "model.h"
 
-
 typedef arma::vec (*Prox_op)(arma::vec, double);
 typedef arma::vec (*Grad)(arma::vec);
 

@@ -12,6 +12,7 @@ typedef struct
     bool is_sparse;
 } Model;
 
+
 MODEL_TYPE string_to_MT(std::string model_type_string)
 {
     if (model_type_string.compare("PCA") == 0)
@@ -24,5 +25,7 @@ MODEL_TYPE string_to_MT(std::string model_type_string)
         return CCA;
     else
         throw std::invalid_argument(model_type_string + " is not currently supported");
-};
+}
+
+;
 #endif  
