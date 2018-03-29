@@ -1,14 +1,5 @@
-#include <RcppArmadillo.h>
-// [[Rcpp::depends(RcppArmadillo)]]
+#include "common.h"
 
-double GAMMA = 3.7;
-arma::mat UCOEF;
-arma::vec UCONST_VEC;
-arma::mat VCOEF;
-arma::vec VCONST_VEC;
-using namespace std;
-using namespace Rcpp;
-using namespace arma;
 
 int myassert(bool flag, std::string info)
 {
