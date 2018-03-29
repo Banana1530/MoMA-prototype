@@ -6,36 +6,55 @@
 
 using namespace Rcpp;
 
-// sfpca
-extern "C" SEXP sfpca(std::string model_type, arma::mat X, arma::mat Y, arma::mat Omega_u, arma::mat Omega_v, double alpha_u, double alpha_v, double lambda_u, double lambda_v, std::string P_u, std::string P_v, double scad_a, int non_neg, double EPS, long MAX_ITER, std::string solver, bool SVD);
-RcppExport SEXP _sfpca_sfpca(SEXP model_typeSEXP, SEXP XSEXP, SEXP YSEXP, SEXP Omega_uSEXP, SEXP Omega_vSEXP, SEXP alpha_uSEXP, SEXP alpha_vSEXP, SEXP lambda_uSEXP, SEXP lambda_vSEXP, SEXP P_uSEXP, SEXP P_vSEXP, SEXP scad_aSEXP, SEXP non_negSEXP, SEXP EPSSEXP, SEXP MAX_ITERSEXP, SEXP solverSEXP, SEXP SVDSEXP) {
+// rcpparma_hello_world
+arma::mat rcpparma_hello_world();
+RcppExport SEXP _sfpca_rcpparma_hello_world() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
-    Rcpp::traits::input_parameter< std::string >::type model_type(model_typeSEXP);
-    Rcpp::traits::input_parameter< arma::mat >::type X(XSEXP);
-    Rcpp::traits::input_parameter< arma::mat >::type Y(YSEXP);
-    Rcpp::traits::input_parameter< arma::mat >::type Omega_u(Omega_uSEXP);
-    Rcpp::traits::input_parameter< arma::mat >::type Omega_v(Omega_vSEXP);
-    Rcpp::traits::input_parameter< double >::type alpha_u(alpha_uSEXP);
-    Rcpp::traits::input_parameter< double >::type alpha_v(alpha_vSEXP);
-    Rcpp::traits::input_parameter< double >::type lambda_u(lambda_uSEXP);
-    Rcpp::traits::input_parameter< double >::type lambda_v(lambda_vSEXP);
-    Rcpp::traits::input_parameter< std::string >::type P_u(P_uSEXP);
-    Rcpp::traits::input_parameter< std::string >::type P_v(P_vSEXP);
-    Rcpp::traits::input_parameter< double >::type scad_a(scad_aSEXP);
-    Rcpp::traits::input_parameter< int >::type non_neg(non_negSEXP);
-    Rcpp::traits::input_parameter< double >::type EPS(EPSSEXP);
-    Rcpp::traits::input_parameter< long >::type MAX_ITER(MAX_ITERSEXP);
-    Rcpp::traits::input_parameter< std::string >::type solver(solverSEXP);
-    Rcpp::traits::input_parameter< bool >::type SVD(SVDSEXP);
-    rcpp_result_gen = Rcpp::wrap(sfpca(model_type, X, Y, Omega_u, Omega_v, alpha_u, alpha_v, lambda_u, lambda_v, P_u, P_v, scad_a, non_neg, EPS, MAX_ITER, solver, SVD));
+    rcpp_result_gen = Rcpp::wrap(rcpparma_hello_world());
+    return rcpp_result_gen;
+END_RCPP
+}
+// rcpparma_outerproduct
+arma::mat rcpparma_outerproduct(const arma::colvec& x);
+RcppExport SEXP _sfpca_rcpparma_outerproduct(SEXP xSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< const arma::colvec& >::type x(xSEXP);
+    rcpp_result_gen = Rcpp::wrap(rcpparma_outerproduct(x));
+    return rcpp_result_gen;
+END_RCPP
+}
+// rcpparma_innerproduct
+double rcpparma_innerproduct(const arma::colvec& x);
+RcppExport SEXP _sfpca_rcpparma_innerproduct(SEXP xSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< const arma::colvec& >::type x(xSEXP);
+    rcpp_result_gen = Rcpp::wrap(rcpparma_innerproduct(x));
+    return rcpp_result_gen;
+END_RCPP
+}
+// rcpparma_bothproducts
+Rcpp::List rcpparma_bothproducts(const arma::colvec& x);
+RcppExport SEXP _sfpca_rcpparma_bothproducts(SEXP xSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< const arma::colvec& >::type x(xSEXP);
+    rcpp_result_gen = Rcpp::wrap(rcpparma_bothproducts(x));
     return rcpp_result_gen;
 END_RCPP
 }
 
 static const R_CallMethodDef CallEntries[] = {
-    {"_sfpca_sfpca", (DL_FUNC) &_sfpca_sfpca, 17},
+    {"_sfpca_rcpparma_hello_world", (DL_FUNC) &_sfpca_rcpparma_hello_world, 0},
+    {"_sfpca_rcpparma_outerproduct", (DL_FUNC) &_sfpca_rcpparma_outerproduct, 1},
+    {"_sfpca_rcpparma_innerproduct", (DL_FUNC) &_sfpca_rcpparma_innerproduct, 1},
+    {"_sfpca_rcpparma_bothproducts", (DL_FUNC) &_sfpca_rcpparma_bothproducts, 1},
     {NULL, NULL, 0}
 };
 
