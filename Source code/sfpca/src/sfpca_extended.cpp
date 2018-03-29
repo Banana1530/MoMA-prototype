@@ -1,23 +1,12 @@
 #include "common.h"
+#include "model.h"
 
 
-int myassert(bool flag, std::string info)
-{
-  if (flag == 0)
-  {
-    throw std::invalid_argument(info);
-  }
-  return 0;
-};
-double mat_norm(arma::vec u, arma::mat S_u)
-{
-  return sqrt(as_scalar(u.t() * S_u * u));
-}
 typedef arma::vec (*Prox_op)(arma::vec, double);
 typedef arma::vec (*Grad)(arma::vec);
-typedef enum {PCA, LDA, CCA, PLS} MODEL_TYPE;
+
 typedef enum {ISTA, FISTA} SOLVER_TYPE;
-const bool DEBUG = 0;
+
 
 arma::vec Grad_nosmoothv(arma::vec x) 
 {
@@ -73,24 +62,9 @@ SOLVER_TYPE string_to_ST(std::string solver_type_string){
   else
     throw std::invalid_argument(solver_type_string  + " is not currently supported");
 }
-MODEL_TYPE string_to_MT(std::string model_type_string){
-  if (model_type_string.compare("PCA") == 0)
-    return PCA;
-  else if (model_type_string.compare("LDA") == 0)
-    return LDA;
-  else if (model_type_string.compare("PLS") == 0)
-    return PLS;
-  else if (model_type_string.compare("CCA") == 0)
-    return CCA;
-  else
-    throw std::invalid_argument(model_type_string + " is not currently supported");
-}
 
-typedef struct{
-  MODEL_TYPE model_type;
-  arma::mat X;
-  bool is_sparse;
-} Model;
+
+
 
 typedef struct{
   Prox_op prox_u; // Model, sparse penalty, non_neg
