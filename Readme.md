@@ -10,15 +10,15 @@ Currently my prototype support the followings:
 
 #### Penalty: Lasso, MCP, Non-negativity Lasso, User-provide smoothing penalty
 
-The following gif shows how three different penalties, L1(black), SCAD(green) and non-negativity L1 (red) effect the recovered signal with varying lambda. This example is from Allen, 2013, Sparse and Functional Principal Component Analysis.
+The following gif shows how three different penalties, L1(black), SCAD(green) and non-negativity L1 (red) effect the recovered signal with varying lambda. This example is from Allen, 2013, Sparse and Functional Principal Component Analysis, where a sinusoidal signal from a combination of three is extracted.
 
-Primitive C++ code is posted now.
+Primitive C++ code is posted now. R code for the demo is attached below.
 
 ![](Demo.gif)
 
 ```R
-for(l in seq(1,10,0.5)){
-  l1 <- sfpca("PCA",
+for(l in seq(1,10,0.5)){ # Changing lambda
+      l1 <- sfpca("PCA",
                   X=X,
                   Y=NULL,
                   Omega_u=O_u,Omega_v=O_v,
