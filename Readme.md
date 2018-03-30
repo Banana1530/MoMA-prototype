@@ -10,7 +10,7 @@ Currently my prototype support the followings:
 
 #### Lasso, MCP, Non-negativity Lasso, User-provide smoothing penalty
 
-The following gif shows how three different penalties, L1(black), SCAD(green) and non-negativity L1 (red) effect the recovered signal with varying lambda.
+The following gif shows how three different penalties, L1(black), SCAD(green) and non-negativity L1 (red) effect the recovered signal with varying lambda. This example is from Allen, 2013, Sparse and Functional Principal Component Analysis.
 
 Primitive C++ code is posted now.
 
