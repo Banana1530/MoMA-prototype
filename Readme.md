@@ -2,9 +2,17 @@
 
 # MoMA Prototype demo
 
-The following gif shows three different penalties, L1(black), SCAD(green) and non-negativity L1 (red) effects on the recovered signal with varying lambda.
+Currently my prototype support the followings:
 
-Source code will be posted soon.
+##### PCA, CCA
+
+#### ISTA, FISTA
+
+#### Lasso, MCP, Non-negativity Lasso, User-provide smoothing penalty
+
+The following gif shows how three different penalties, L1(black), SCAD(green) and non-negativity L1 (red) effect the recovered signal with varying lambda.
+
+Primitive C++ code is posted now.
 
 ![](Demo.gif)
 
