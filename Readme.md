@@ -4,11 +4,11 @@
 
 Currently my prototype support the followings:
 
-##### PCA, CCA
+#### Model: PCA, CCA
 
-#### ISTA, FISTA
+#### Optimization algorithm: ISTA, FISTA
 
-#### Lasso, MCP, Non-negativity Lasso, User-provide smoothing penalty
+#### Penalty: Lasso, MCP, Non-negativity Lasso, User-provide smoothing penalty
 
 The following gif shows how three different penalties, L1(black), SCAD(green) and non-negativity L1 (red) effect the recovered signal with varying lambda. This example is from Allen, 2013, Sparse and Functional Principal Component Analysis.
 
