@@ -10,6 +10,8 @@ Currently my prototype support the followings:
 
 #### Penalty: Lasso, MCP, Non-negativity Lasso, User-provide smoothing penalty
 
+Right now I am trying to separate the implementation of function from `.h` file to `.cpp` file but it would fail to compile for no reason. Still working on it.
+
 The following gif shows how three different penalties, L1(black), SCAD(green) and non-negativity L1 (red) effect the recovered signal with varying lambda. This example is from Allen, 2013, Sparse and Functional Principal Component Analysis, where a sinusoidal signal from a combination of three is extracted.
 
 Primitive C++ code is posted now. R code for the demo is attached below.
