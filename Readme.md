@@ -1,5 +1,3 @@
-
-
 # MoMA Prototype demo
 
 Currently my prototype support the followings:
@@ -20,7 +18,7 @@ Primitive C++ code is posted now. R code for the demo is attached below.
 
 ```R
 for(l in seq(1,10,0.5)){ # Changing lambda
-      l1 <- sfpca("PCA",
+       l1 <- sfpca("PCA",
                   X=X,
                   Y=NULL,
                   Omega_u=O_u,Omega_v=O_v,
