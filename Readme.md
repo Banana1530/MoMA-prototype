@@ -8,7 +8,7 @@ Currently my prototype supports the followings extensions:
 
 #### Penalty: Lasso, MCP, Non-negativity Lasso, User-provide smoothing penalty
 
-Right now I am trying to separate the implementation of function from `.h` file to `.cpp` file but it would fail to compile for no reason. Still working on it.
+Right now I am trying to separate the implementation of functions from `.h` file to `.cpp` file but it would fail to compile for no reason. Still working on it.
 
 The following gif shows how three different sparse penalties, L1(black), SCAD(green) and non-negativity L1 (red) effect the recovered signal with varying lambda. This example is from Allen, 2013, Sparse and Functional Principal Component Analysis, where a sinusoidal signal from a combination of three is extracted.
 
