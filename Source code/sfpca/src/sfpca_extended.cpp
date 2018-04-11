@@ -38,8 +38,8 @@ extern "C" SEXP sfpca(
   Model mod = build_model(X,Y,model_type);
   if (DEBUG)
 	  cout << "After buildmod"<<endl;
-	if(DEBUG) cout<<"Before build solver"<<endl;
-		  Solver sol = build_solver(mod, Omega_u, Omega_v, alpha_u, alpha_v, lambda_u, lambda_v, P_u, P_v, scad_a, non_neg, EPS, MAX_ITER, solver, SVD);
+
+	Solver sol = build_solver(mod, Omega_u, Omega_v, alpha_u, alpha_v, lambda_u, lambda_v, P_u, P_v, scad_a, non_neg, EPS, MAX_ITER, solver, SVD);
 	if(DEBUG) cout<<"After build solver";
   Rcpp::List res = train(mod,sol);
 	return res;
