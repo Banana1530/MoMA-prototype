@@ -3,26 +3,19 @@
 #include <RcppArmadillo.h>
 // [[Rcpp::depends(RcppArmadillo)]]
 
-double GAMMA = 3.7;
-arma::mat UCOEF;
-arma::vec UCONST_VEC;
-arma::mat VCOEF;
-arma::vec VCONST_VEC;
+
+// modified in commmon.cpp
+extern double GAMMA;
+extern arma::mat UCOEF;
+extern arma::vec UCONST_VEC;
+extern arma::mat VCOEF;
+extern arma::vec VCONST_VEC;
+extern const bool DEBUG = 0;
 using namespace std;
 using namespace Rcpp;
 using namespace arma;
-const bool DEBUG = 0;
 
-int myassert(bool flag, std::string info)
-{
-    if (flag == 0)
-    {
-        throw std::invalid_argument(info);
-    }
-    return 0;
-};
-double mat_norm(arma::vec u, arma::mat S_u)
-{
-    return sqrt(as_scalar(u.t() * S_u * u));
-}
+
+int myassert(bool flag, std::string info);
+double mat_norm(arma::vec u, arma::mat S_u);
 #endif 
