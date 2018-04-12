@@ -1,5 +1,7 @@
 # MoMA Prototype demo
 
+###Progress
+
 Currently my prototype supports the followings extensions:
 
 #### Model: PCA, CCA
@@ -8,13 +10,17 @@ Currently my prototype supports the followings extensions:
 
 #### Penalty: Lasso, MCP, Non-negativity Lasso, User-provide smoothing penalty
 
-Right now I am trying to separate the implementation of functions from `.h` file to `.cpp` file but it would fail to compile for no reason. Still working on it.
+### Demo
 
-The following gif shows how three different sparse penalties, L1(black), SCAD(green) and non-negativity L1 (red) effect the recovered signal with varying lambda. This example is from Allen, 2013, Sparse and Functional Principal Component Analysis, where a sinusoidal signal from a combination of three is extracted.
+This example is from Allen, 2013, Sparse and Functional Principal Component Analysis, where a sinusoidal signal from a combination of three is extracted. These signals look like this, and I will recover the black one using different penalties. A `.gif` show how varying penalty level affect the recovered signal.
 
-Primitive C++ code is posted now. R code for the demo is attached below.
+![](signal.png)
+
+The following gif shows how three different sparse penalties, L1(black), SCAD(green) and non-negativity L1 (red) effect the recovered signal (the black on above) with varying lambda.
 
 ![](Demo.gif)
+
+ Primitive `C++` code is posted now. `R` code for the demo is attached below.
 
 ```R
 for(l in seq(1,10,0.5)){ # Changing lambda
