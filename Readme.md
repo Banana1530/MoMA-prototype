@@ -14,7 +14,7 @@ ISTA, FISTA
 
 #### Penalty
 
-Lasso, MCP, Non-negativity Lasso, user-provide smoothing penalty
+Lasso, MCP, non-negativity Lasso, user-provide smoothing penalty
 
 ## Demo
 
