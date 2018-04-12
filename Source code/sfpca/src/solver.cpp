@@ -1,6 +1,6 @@
 #include "solver.h"
 
-bool DEBUG = 0;
+
 double GAMMA;
 arma::mat UCOEF;
 arma::vec UCONST_VEC;

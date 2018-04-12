@@ -1,5 +1,5 @@
 #include "model.h"
-
+bool DEBUG = 0;
 MODEL_TYPE string_to_MT(std::string model_type_string)
 {
     if (model_type_string.compare("PCA") == 0)
