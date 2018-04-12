@@ -16,7 +16,7 @@ ISTA, FISTA
 
 Lasso, MCP, Non-negativity Lasso, User-provide smoothing penalty
 
-##Demo
+## Demo
 
 This example is from Allen, 2013, Sparse and Functional Principal Component Analysis, where a sinusoidal signal from a combination of three is extracted. These signals look like this, and I will recover the black one using different penalties. A `.gif` show how varying penalty level affect the recovered signal.
 
