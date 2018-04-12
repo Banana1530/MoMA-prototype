@@ -22,7 +22,7 @@ This example is from Allen, 2013, Sparse and Functional Principal Component Anal
 
 ![](signal.png)
 
-The following gif shows how three different sparse penalties, L1(black), SCAD(green) and non-negativity L1 (red) effect the recovered signal (the black on above) with varying lambda.
+The following gif shows how three different sparse penalties, L1(black), SCAD(green) and non-negativity L1 (red) effect the recovered signal (the black on above) with varying lambda. Note that SFPCA yields unique solution up to sign, which explains why the recovered signal is upside-down.
 
 ![](Demo.gif)
 
