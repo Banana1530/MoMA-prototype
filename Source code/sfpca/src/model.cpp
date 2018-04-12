@@ -23,7 +23,6 @@ Model build_model(arma::mat X, arma::mat Y, std::string model_type)
     case PCA:
         if (DEBUG)
             cout << "Chosing case PCA: " << model.model_type << endl;
-
         model.X = X;
         break;
     case LDA:

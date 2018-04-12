@@ -10,7 +10,9 @@ extern arma::mat UCOEF;
 extern arma::vec UCONST_VEC;
 extern arma::mat VCOEF;
 extern arma::vec VCONST_VEC;
-extern const bool DEBUG = 0;
+extern bool DEBUG;
+
+
 using namespace std;
 using namespace Rcpp;
 using namespace arma;

@@ -1,7 +1,11 @@
 #include "solver.h"
 
-
-
+bool DEBUG = 0;
+double GAMMA;
+arma::mat UCOEF;
+arma::vec UCONST_VEC;
+arma::mat VCOEF;
+arma::vec VCONST_VEC;
 
 arma::vec Grad_nosmoothv(arma::vec x)
 {

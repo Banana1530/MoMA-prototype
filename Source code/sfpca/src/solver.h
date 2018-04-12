@@ -5,13 +5,6 @@
 #include "model.h"
 typedef arma::vec (*Prox_op)(arma::vec, double);
 typedef arma::vec (*Grad)(arma::vec);
-
-double GAMMA;
-arma::mat UCOEF;
-arma::vec UCONST_VEC;
-arma::mat VCOEF;
-arma::vec VCONST_VEC;
-const bool DEBUG=0;
 typedef enum { ISTA, FISTA } SOLVER_TYPE;
 
 arma::vec Grad_nosmoothv(arma::vec x);
