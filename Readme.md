@@ -1,16 +1,22 @@
-# MoMA Prototype demo
+#MoMA Prototype demo
 
-###Progress
+## Progress
 
 Currently my prototype supports the followings extensions:
 
-#### Model: PCA, CCA
+#### Model
 
-#### Optimization algorithm: ISTA, FISTA
+PCA, CCA
 
-#### Penalty: Lasso, MCP, Non-negativity Lasso, User-provide smoothing penalty
+#### Optimization algorithm
 
-### Demo
+ISTA, FISTA
+
+#### Penalty
+
+Lasso, MCP, Non-negativity Lasso, User-provide smoothing penalty
+
+##Demo
 
 This example is from Allen, 2013, Sparse and Functional Principal Component Analysis, where a sinusoidal signal from a combination of three is extracted. These signals look like this, and I will recover the black one using different penalties. A `.gif` show how varying penalty level affect the recovered signal.
 
