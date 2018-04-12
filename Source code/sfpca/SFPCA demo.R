@@ -3,7 +3,7 @@ library('RcppArmadillo')
 
 library(sfpca)
 
-par(mfrow = c(2,3))
+par(mfrow = c(1,1))
 ani.options(interval=.05)
 sparse.p = c("l1","scad")
 
