@@ -2,7 +2,7 @@
 
 ## Progress
 
-Currently my prototype supports the followings extensions:
+Currently my prototype supports the following extensions:
 
 #### Model
 
@@ -14,7 +14,7 @@ ISTA, FISTA
 
 #### Penalty
 
-Lasso, MCP, Non-negativity Lasso, User-provide smoothing penalty
+Lasso, MCP, Non-negativity Lasso, user-provide smoothing penalty
 
 ## Demo
 
